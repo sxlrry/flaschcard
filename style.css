@@ -6,7 +6,7 @@
 
     border: solid 5px lightsalmon;
     text-align: center;
-    margin-top : 50px ;
+    margin-top : 25px ;
     width: 25%;
     margin: auto;
 }
@@ -16,11 +16,11 @@
     border: solid 5px lightgreen;
     text-align: center;
     width: 25% ;
-    margin-top: 50px;
+    margin-top: 25px;
     margin: auto;
 }
 
 button {
-    text-align : top-left ;
+    text-align : top-right ;
     margin-right: 45px
 }
