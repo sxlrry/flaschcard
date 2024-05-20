@@ -2,5 +2,6 @@
     width: 720px;
     lenght: 500px;
     border-radius: auto;
-    border: solid 5px pink;
+    border: hidden 5px ;
+    margin: auto
 }
