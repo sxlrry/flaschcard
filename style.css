@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+}
+
+.term{
+
+    border: solid 5px lightsalmon;
+    text-align: center;
+    margin : 25px ;
+}
+
+.definition{
+
+    border: solid 5px lightgreen;
+    text-align: center;
+    margin: 25px;
+}
