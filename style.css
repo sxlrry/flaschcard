@@ -1,17 +1,18 @@
 .carte{
     width: 720px;
-    length: 500px;
+    height: 500px;
     border-radius: 0;
     border: hidden 5px ;
     margin: auto ;
     background-color: #524a24 ;
 }
 
-h1.notion {
+.notion {
+    border : solid black 5px ;
     text-align: center;
 }
 
-p.Question {
+.Question {
     padding : 0px 20px 20px 20px ;
 }
 
