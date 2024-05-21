@@ -8,10 +8,13 @@
 }
 
 .notion{
-    margin : auto ;
+    margin : 0 auto ;
 }
 
 .Question{
     padding : 0px 20px 20px 20px ;
 }
 
+.barre{
+    scrollbar-width: 20px;
+}
