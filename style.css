@@ -16,11 +16,3 @@
 .Question {
     padding : 0px 20px 20px 20px ;
 }
-
-.barre{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
