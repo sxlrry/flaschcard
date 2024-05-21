@@ -1,7 +1,7 @@
 .carte{
     width: 720px;
-    lenght: 500px;
-    border-radius: auto;
+    length: 500px;
+    border-radius: 0;
     border: hidden 5px ;
     margin: auto ;
     background-color: #524a24 ;
