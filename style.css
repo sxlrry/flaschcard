@@ -71,16 +71,16 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #8f4907;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
- .bouton2:hover {background-color: #3e8e41}
+ .bouton2:hover {background-color: #522409}
   
  .bouton2:active {
-    background-color: #3e8e41;
+    background-color: #4b2a0b;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -92,59 +92,18 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #ff0000;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
  }
   
- .bouton3:hover {background-color: #3e8e41}
+ .bouton3:hover {background-color: #a10808}
   
  .bouton3:active {
-    background-color: #3e8e41;
+    background-color: #5e0e0e;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 
-  .eappris {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #C74A1B;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-.eappris:hover {background-color: #68230F}
-  
-.eappris:active {
-    background-color: #68230F;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-
-  .nappris {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #7F1904;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-.nappris:hover {background-color: #500E00}
-  
-.nappris:active {
-    background-color: #500E00;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+ 
