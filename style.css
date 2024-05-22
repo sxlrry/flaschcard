@@ -9,8 +9,8 @@
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 900px;
+    height: 400px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -24,8 +24,8 @@
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
