@@ -9,7 +9,7 @@
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
-    width: 1000px;
+    width: 100px;
     height: 500px;
     text-align: center;
     transition: transform 0.8s;
