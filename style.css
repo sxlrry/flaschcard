@@ -5,7 +5,7 @@
     perspective: 1000px; 
     float: left;
     padding: 10px;
-    margin: 15%;
+  
     width: 900px;
   }
   
@@ -14,7 +14,7 @@
     position: relative;
     width: 900px;
     height: 400px;
-    margin: 15%;
+ 
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -28,7 +28,7 @@
 
   .flip-card-front, .flip-card-back {
     position: absolute;
-    margin: 15%;
+
     width: 900px;
     height: 400px;
     -webkit-backface-visibility: hidden; 
@@ -145,7 +145,7 @@
   background-color: #333;
 }
 
-/* Style the topnav links */
+
 .topnav a {
   float: left;
   display: block;
@@ -155,8 +155,14 @@
   text-decoration: none;
 }
 
-/* Change color on hover */
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
