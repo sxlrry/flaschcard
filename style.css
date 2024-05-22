@@ -33,13 +33,13 @@
 
   .flip-card-front {
     background-color: #24376A;
-    color: black;
+    color: whitesmoke;
   }
   
 
   .flip-card-back {
     background-color: #354675;
-    color: white;
+    color: whitesmoke;
     transform: rotateY(180deg);
   }
 
@@ -119,10 +119,10 @@
     box-shadow: 0 9px #999;
   }
   
-.eappris:hover {background-color: #BE4011}
+.eappris:hover {background-color: #68230F}
   
 .eappris:active {
-    background-color: #BE4011;
+    background-color: #68230F;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
