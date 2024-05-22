@@ -32,13 +32,13 @@
   
 
   .flip-card-front {
-    background-color: #24376A;
+    background-color: #FF8989;
     color: whitesmoke;
   }
   
 
   .flip-card-back {
-    background-color: #354675;
+    background-color: #EE5F5F;
     color: whitesmoke;
     transform: rotateY(180deg);
   }
@@ -50,16 +50,16 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #72D672;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
- .bouton1:hover {background-color: #3e8e41}
+ .bouton1:hover {background-color: #2DA42D}
 
  .button1:active {
-    background-color: #3e8e41;
+    background-color: #2DA42D;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -71,16 +71,16 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #8f4907;
+    background-color: #EEE65F;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
- .bouton2:hover {background-color: #522409}
+ .bouton2:hover {background-color: #CDC538}
   
  .bouton2:active {
-    background-color: #4b2a0b;
+    background-color: #CDC538;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -92,16 +92,16 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #ff0000;
+    background-color: #7547A0;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
  }
   
- .bouton3:hover {background-color: #a10808}
+ .bouton3:hover {background-color: #5D2D8B}
   
  .bouton3:active {
-    background-color: #5e0e0e;
+    background-color: #5D2D8B;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
