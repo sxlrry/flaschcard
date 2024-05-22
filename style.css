@@ -42,7 +42,10 @@
     color: whitesmoke;
     transform: rotateY(180deg);
   }
+.barre {
+  text-align: center;
 
+}
 .bouton1 {
     padding: 15px 25px;
     font-size: 24px;
