@@ -29,17 +29,17 @@
     text-align: center;
 }
 .flip-card {
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
+    width: 800px;
+    height: 600px;
+    border: 5px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 720%;
+    height: 800%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -53,8 +53,8 @@
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 720%;
+    height: 800%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
