@@ -43,7 +43,7 @@
     transform: rotateY(180deg);
   }
 
-  .bouton {
+.bouton {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -56,9 +56,9 @@
     box-shadow: 0 9px #999;
   }
   
-  .bouton:hover {background-color: #3e8e41}
+.bouton:hover {background-color: #3e8e41}
   
-  .bouton:active {
+.bouton:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
