@@ -16,3 +16,15 @@
 .Question {
     padding : 0px 20px 20px 20px ;
 }
+
+.appris{
+    text-align: right;
+}
+
+.pappris{
+    text-align: left;
+}
+
+.eappris{
+    text-align: center;
+}
