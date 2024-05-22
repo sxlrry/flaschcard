@@ -1,33 +1,4 @@
-.carte{
-    width: 720px;
-    height: 500px;
-    border-radius: 50px;
-    border: solid black 5px;
-    margin: auto;
-}
 
-.Notion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.Question {
-    padding : 0px 20px 20px 20px ;
-}
-
-.appris{
-    text-align: right;
-}
-
-.pappris{
-    text-align: left;
-}
-
-.eappris{
-    text-align: center;
-}
 .flip-card {
     width: 800px;
     height: 600px;
