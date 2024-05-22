@@ -43,7 +43,7 @@
     transform: rotateY(180deg);
   }
 
-.bouton {
+.appris {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -56,9 +56,50 @@
     box-shadow: 0 9px #999;
   }
   
-.bouton:hover {background-color: #3e8e41}
+.appris:hover {background-color: #3e8e41}
   
-.bouton:active {
+.appris:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .eappris {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+.eappris:hover {background-color: #3e8e41}
+  
+.eappris:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .nappris {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+.nappris:hover {background-color: #3e8e41}
+  
+.nappris:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
