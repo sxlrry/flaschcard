@@ -30,7 +30,16 @@
     backface-visibility: hidden;
   }
   
+  .Notion {
+    font-weight: bold;
+  }
+.Question {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 
+}
   .flip-card-front {
     background-color: #FF8989;
     color: whitesmoke;
@@ -77,7 +86,7 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #EEE65F;
+    background-color: #d1ca4c;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
