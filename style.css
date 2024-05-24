@@ -6,15 +6,15 @@
     float: left;
     padding-top: 100%;
     position: relative;
-    height: 50% ;
-    width: 50%;
+    height: 900px;
+    width: 400px;
   }
   
 
   .flip-card-inner {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 400px;
+    height: 900px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -28,8 +28,8 @@
 
   .flip-card-front, .flip-card-back {
     position: absolute;
-    height: 50%;
-    width: 50%;
+    height: 900px;
+    width: 400px;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
