@@ -4,7 +4,8 @@
     perspective: 1000px; 
     height: 400px;
     width: 900px;
-  
+    position: relative;
+    top: 40px; left: 40px;
   }
   
 
