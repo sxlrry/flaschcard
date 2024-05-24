@@ -4,15 +4,16 @@
     border: 5px solid transparent;
     perspective: 1000px; 
     float: left;
-    padding: 10px;
+    padding-top: 100%;
+    position: relative;
   
-    width: 900px;
+    width: 100%;
   }
   
 
   .flip-card-inner {
     position: relative;
-    width: 900px;
+    width: 100%;
     height: 400px;
  
     text-align: center;
@@ -28,8 +29,8 @@
 
   .flip-card-front, .flip-card-back {
     position: absolute;
-
-    width: 900px;
+    
+    width: 100%;
     height: 400px;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
@@ -55,6 +56,11 @@
   .flip-card-front {
     background-color: #FF8989;
     color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
   
 
@@ -62,6 +68,11 @@
     background-color: #EE5F5F;
     color: whitesmoke;
     transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 .barre {
   margin-left: auto;
@@ -70,6 +81,8 @@
   width: 50%;
 
 }
+/* boutons*/
+
 .bouton1 {
     padding: 15px 25px;
     font-size: 24px;
