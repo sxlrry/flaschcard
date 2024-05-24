@@ -1,18 +1,16 @@
 
 .flip-card {
-   
     border: 5px solid transparent;
     perspective: 1000px; 
-    
-    height: 900px;
-    width: 400px;
+    height: 400px;
+    width: 900px;
   }
   
 
   .flip-card-inner {
 
-    width: 400px;
-    height: 900px;
+    width: 900px;
+    height: 400px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -26,8 +24,8 @@
 
   .flip-card-front, .flip-card-back {
 
-    height: 900px;
-    width: 400px;
+    height: 400px;
+    width: 900px;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
