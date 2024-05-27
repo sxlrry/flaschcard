@@ -9,33 +9,33 @@
   }
   
 
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
 
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .Notion {
-    font-weight: bold;
-  }
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.Notion {
+  font-weight: bold;
+}
 .Question {
   padding-top: 50px;
   padding-right: 30px;
@@ -50,62 +50,54 @@
   padding-left: 80px;
 
 }
-  .flip-card-front {
-    background-color: #FF8989;
-    color: whitesmoke;
+.flip-card-front {
+  background-color: #FF8989;
+  color: whitesmoke;
 
-   
-  }
+ 
+}
   
 
-  .flip-card-back {
-    background-color: #EE5F5F;
-    color: whitesmoke;
-    transform: rotateY(180deg);
+.flip-card-back {
+  background-color: #EE5F5F;
+  color: whitesmoke;
+  transform: rotateY(180deg);
+}
 
-    
-  }
 .barre {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   width: 50%;
 
+  button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
 }
 /* boutons*/
 
 .bouton1 {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
     background-color: #72D672;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
   }
   
- .bouton1:hover {background-color: #2DA42D}
+.bouton1:hover {background-color: #2DA42D}
 
- .button1:active {
-    background-color: #2DA42D;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+.bouton1:active {
+  background-color: #2DA42D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .bouton2 {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
     background-color: #d1ca4c;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
   }
   
  .bouton2:hover {background-color: #CDC538}
@@ -117,25 +109,16 @@
 }
 
 .bouton3 {
-    padding: 15px 25px ;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
     background-color: #7547A0;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
  }
   
- .bouton3:hover {background-color: #5D2D8B}
+.bouton3:hover {background-color: #5D2D8B}
   
- .bouton3:active {
-    background-color: #5D2D8B;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+.bouton3:active {
+  background-color: #5D2D8B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 /* partie du site web */
 
